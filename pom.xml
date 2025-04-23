@@ -6,19 +6,18 @@
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    
     <dependencies>
-        <dependency>
-            <groupId>org.jboss.weld.se</groupId>
-            <artifactId>weld-se-shaded</artifactId>
-            <version>3.0.2.Final</version>
-        </dependency>
+<dependency>
+    <groupId>org.jboss.weld.se</groupId>
+    <artifactId>weld-se-shaded</artifactId>
+    <version>6.0.2.Final</version>
+</dependency>
     </dependencies>
     
-        <properties>
+    <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <exec.mainClass>com.ugleagle.JavaCdiWeld</exec.mainClass>
     </properties>
 </project>
