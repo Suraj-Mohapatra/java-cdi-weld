@@ -1,4 +1,4 @@
-package com.ugleagle;
+package com.uglyeagle;
 
 import jakarta.enterprise.context.Dependent;
 import jakarta.inject.Inject;
