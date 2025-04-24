@@ -1,7 +1,7 @@
 package com.uglyeagle;
 
-import jakarta.enterprise.context.Dependent;
-import jakarta.inject.Inject;
+import javax.enterprise.context.Dependent;
+import javax.inject.Inject;
 
 @Dependent
 public class ServiceA {
